@@ -1,0 +1,64 @@
+@import url('./fonts.css');
+
+.container {
+font-family: 'Dark Soul', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Full viewport height */
+width: 100vw; /* Full viewport width */
+background-color: #000000; /* Black background */
+color: #ffffff; /* White text */
+cursor: pointer;
+}
+
+.title {
+font-family: 'Dark Soul', sans-serif;
+font-size: 2.5rem;
+margin-bottom: 1rem;
+color: #ffffff; /* White text */
+}
+
+.subtitle {
+font-family: 'Dark Soul', sans-serif;
+font-size: 1.2rem;
+color: #ffffff; /* White text */
+}
+
+.loadingText {
+font-family: 'Dark Soul', sans-serif;
+font-size: 1.5rem;
+color: #ffffff; /* White text */
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Full viewport height */
+width: 100vw; /* Full viewport width */
+background-color: #000000; /* Black background */
+color: #ffffff; /* White text */
+font-family: 'Arial', sans-serif; /* Default font */
+cursor: pointer; /* Indicates the area is clickable */
+margin: 0; /* Remove default margin */
+padding: 0; /* Remove default padding */
+}
+
+.title {
+font-size: 3rem; /* Larger font size for the title */
+margin-bottom: 1rem; /* Space between title and subtitle */
+text-align: center; /* Center-align text */
+}
+
+.subtitle {
+font-size: 1.5rem; /* Medium font size for the subtitle */
+text-align: center; /* Center-align text */
+}
+
+.loadingText {
+font-size: 2rem; /* Larger font size for loading text */
+text-align: center; /* Center-align text */
+}
